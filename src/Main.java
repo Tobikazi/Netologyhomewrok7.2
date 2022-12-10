@@ -30,7 +30,7 @@ public class Main {
         Integer max = getMax(symbols);
         Integer min = getMin(symbols);
 
-        System.out.println("Макс. число вхождений: ");
+        System.out.println("Макс. число символов: ");
 
         for (Map.Entry<Character, Integer> entry : symbols.entrySet()) {
             if (entry.getValue() == max) {
@@ -38,7 +38,7 @@ public class Main {
             }
         }
 
-        System.out.println("Мин. число вхождений: ");
+        System.out.println("Мин. число символов: ");
 
         for (Map.Entry<Character, Integer> entry : symbols.entrySet()) {
             if (entry.getValue() == min) {
